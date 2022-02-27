@@ -239,7 +239,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Copyright for portions of project [kv](https://github.com/whinee/kv) are held by [Github Account [ashley williams](https://github.com/[ashleygwilliams) Owner, 2018] as part of project [worker-template](https://github.com/cloudflare/worker-template).
 
-All other copyright for project [kv](https://github.com/whinee/kv) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2021].
+All other copyright for project [kv](https://github.com/whinee/kv) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2022].
 
 Check the [LICENSE](LICENSE.md) for more details.
 

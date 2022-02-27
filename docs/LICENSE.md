@@ -4,7 +4,7 @@
 
 Copyright for portions of project [kv](https://github.com/whinee/kv) are held by [Github Account [ashley williams](https://github.com/[ashleygwilliams) Owner, 2018] as part of project [worker-template](https://github.com/cloudflare/worker-template).
 
-All other copyright for project [kv](https://github.com/whinee/kv) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2021].
+All other copyright for project [kv](https://github.com/whinee/kv) are held by [Github Account [whinee](https://github.com/whinee) Owner, 2022].
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

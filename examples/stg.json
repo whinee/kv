@@ -1,0 +1,8 @@
+{
+    "url": "http://127.0.0.1:8787",
+    "credentials": {
+        "user": "admin",
+        "pass": "admin"
+    },
+    "key": "test"
+}

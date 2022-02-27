@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "A template for kick starting a Cloudflare Workers project",
+    "main": "index.js",
+    "author": "whi~nyaan <whinyaan@noreply.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "xmlhttprequest": "^1.8.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^4.9.1"
+    }
+}

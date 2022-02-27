@@ -1,0 +1,12 @@
+name = "kv"
+type = "webpack"
+account_id = ""
+workers_dev = true
+webpack_config = "webpack.config.js"
+route = ""
+zone_id = ""
+compatibility_date = "2021-12-31"
+
+kv_namespaces = [
+  { binding = "KV", id = "dc63071e609747e6b9ad86969bb76ed3", preview_id = "dc63071e609747e6b9ad86969bb76ed3" }
+]

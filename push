@@ -55,7 +55,7 @@ def cmd(v: str, g: bool=False):
         with open("package.json", "w") as f:
             f.write(json.dumps(pj, indent=4))
         
-        cm = f"https://kv.wh.rf.gd/changelog#v{cvp.replace('.', '_')}"
+        cm = f"https://kv.wh.rf.gd/changelog#v{str(cvp).replace('.', '_')}"
     
     if g:
         run("git add .")

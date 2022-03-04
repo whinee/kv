@@ -13,7 +13,7 @@
  * @returns {Promise<Response>}
  */
 async function handleRequest(request) {
-    const { protocol, pathname } = new URL(request.url);
+    const { pathname, protocol } = new URL(request.url);
     if ('https:' !== protocol || 'https' !== request.headers.get('x-forwarded-proto')) {
         throw new BadRequestException('Please use a HTTPS connection.');
     }
@@ -65,21 +65,23 @@ async function handleRequest(request) {
             switch (pathname.split('/')[1]) {
                 case 'a': {
                     if (request.method === "GET") {
-                        const value = await KV.get(pathname.split('/')[2]);
+                        const key = pathname.split('/')[2];
+                        let value = await KV.get(key);
                         response = {
                             headers: {
                                 "Access-Control-Allow-Origin": "*",
                                 "Access-Control-Allow-Methods": "GET",
-                                'Content-Type': 'text/plain;charset=UTF-8',
+                                "Content-Type": "application/json",
                                 'Cache-Control': 'no-store',
                                 'Content-Length': value.length,
                             },
                             status: 200,
                         }
+
                         response = new Response(value, response);
                         return response
                     }
-        
+
                     return new Response('GET method only.', {
                         status: 405,
                         headers: {
